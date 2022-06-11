@@ -36,10 +36,11 @@ body {
 .button {
   font-weight: bold;
   text-decoration: none;
+  padding: 5px 20px;
   color: white;
 }
 
-.nav:hover {
+.button:hover {
   background-color: black;
 }
 
@@ -49,6 +50,7 @@ body {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  font-size: 26px;
 }
 
 .article-title {
@@ -65,7 +67,7 @@ body {
   border-radius: 10px;
 }
 
-.footer{
-    font-style: oblique;
-    font-size: 14px;
+.footer {
+  font-style: oblique;
+  font-size: 14px;
 }
