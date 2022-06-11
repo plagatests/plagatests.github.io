@@ -43,13 +43,22 @@ body {
   background-color: black;
 }
 
-.section-title {
+.subtitle {
   color: rgb(60, 60, 255);
-  margin: ;
   text-shadow: 1px 1px 2px rgb(100, 100, 100);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.section {
+.article-title {
+  color: rgb(60, 60, 255);
+  text-shadow: 1px 1px 2px rgb(100, 100, 100);
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+}
+
+.article {
   background-color: white;
   padding: 10px;
   margin: 10px;
